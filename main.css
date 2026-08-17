@@ -1,0 +1,11 @@
+.hero-image img {
+  width: 100%;
+}
+
+header nav {
+  display: none;
+}
+
+header #header-cta {
+  display: none;
+}

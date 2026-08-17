@@ -3,6 +3,9 @@
 ![Design preview for the Digitalbank landing page coding challenge](preview.jpg)
 
 ## Welcome! 👋
+### qyer1: who is the number buyer
+
+![image of demo](images/bg-intro-desktop.svg)
 
 Thanks for checking out this front-end coding challenge.
 
