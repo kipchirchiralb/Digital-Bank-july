@@ -9,3 +9,47 @@ header nav {
 header #header-cta {
   display: none;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+a {
+  color: inherit;
+  padding: 10px;
+}
+/* media queries for responsive design */
+@media screen and (min-width: 780px) {
+  header nav {
+    display: flex;
+  }
+  header #header-cta {
+    display: inline-block;
+  }
+  header #menu-btn {
+    display: none;
+  }
+}
+
+/* hero section */
+
+.hero-image {
+  background-image: url(./images/bg-intro-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-text {
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (min-width: 780px) {
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero-image {
+    background-image: url(./images/bg-intro-desktop.svg);
+  }
+}
